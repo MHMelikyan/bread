@@ -14,7 +14,7 @@ app.use('/breads', breadRoutes)
 
 
 app.get('/',(req,res) =>{
-    res.send('<h1> main page</h1>')
+    res.render('error 404')
 
 })
 const PORT = process.env.PORT || 8080
